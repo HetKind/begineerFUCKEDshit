@@ -1,0 +1,15 @@
+import sys
+first=(input("Enter Input:"))
+second=(input("Enter input to be evaluated with " + str(f'"{first}"')+" and "))
+data =  (first+second)
+if data.isnumeric():
+  print("Result")
+else:
+  sys.exit("You fucked up in other words enterd data is not NUMERIC. Thank you for your time! Go fuck yourself")
+sum = float(first)+float(second)
+if sum > 5:
+  print("The sum is",str(f'"{sum}"'),"which is greater than '5' be that how unfortunate as it may You Win! Have fun. ")
+elif sum < 5:
+  print("The sum is",str(f'"{sum}"'),"which is less than 5 be that as unfortunate as it may you still get to win. Now will you fuck off already")
+elif sum == 5:
+  print("The sum is",str(f'"{sum}"'),"which is equal to 5 so that means I don't know what to say right now. Why are you still reading this go watch some TV")
