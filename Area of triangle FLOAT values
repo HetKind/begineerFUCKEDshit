@@ -2,3 +2,8 @@ length = float(input("Enter length of rectangle:"))
 breadth = float(input("Enter breadth of rectangle:"))
 print ("Area of Rectangle is",length*breadth)
 print("Which rounds to ", int(length*breadth),"which you can clearly see is that I fucked up the mathematics")
+
+#updated shit
+length = float(input("Enter length of rectangle:"))
+breadth = float(input("Enter breadth of rectangle:"))
+print ("Area of Rectangle is",length*breadth,"which rounds to ", int(length*breadth),"and now you can clearly see I fucked up the mathematics big time")
