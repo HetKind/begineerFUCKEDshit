@@ -1,0 +1,5 @@
+name=input("Insert your name please")
+roll_number=input("Please state your roll number")
+roll_number=roll_number+"."
+interest=input("Field of interest")
+print("Hey, my name is", name, "and my roll number is",roll_number,"My field of interest are",interest)
