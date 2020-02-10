@@ -1,0 +1,2 @@
+side = float(input("Enter Square's side:"))
+print ("Area of Square is",2**side)
