@@ -1,0 +1,6 @@
+first=input("Enter Input:")
+second=input("Enter input to be evaluated with " + str(f'"{first}"')+":")
+if first==second:
+  print("yeaaaaaaaa okaaay whatever... entered data is equal now fuck off.")
+else:
+    print("Data is fucked in other words it is not equal. Thank you for your time!")
