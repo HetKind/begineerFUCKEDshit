@@ -1,0 +1,18 @@
+import sys
+marks = input("Enter marks out of 100: ")
+if marks.isnumeric():
+  print("Authenticating Marks.....")
+else:
+  sys.exit("Type NUMERICAL DIGITS not Alphabets.You BITCHHH")
+marks=float(marks)
+if  marks == 100:
+  print("Woah really '100' you got h u n d r e d cool you're of course passed have fun... and don't forget to ask for more allowance this week  NERRRRRD")
+elif  marks > 100:
+  print("Heyyyyyy you're smart but don't  you fuckin enter marks above 100. why??? Good Question.... why don't you go ask your mom... fuckkkeerrrrrrrr Now try again or get the fuck off")
+elif marks  > 35:
+  print("yeah yaaaaaaaah whatever you're passed. Your mom would be so proud")
+elif  marks < 35:
+  print("You're Failed don't worry your girlfriend must be passed waaaiiiitt or is she??")
+
+elif  marks  == 35:
+  print("Now this is what life should be all about 'ENJOYMENT' YES YES YES you're passed hoorayyyyy was kinda closed one though boundaryyyyyyyy lmao")
