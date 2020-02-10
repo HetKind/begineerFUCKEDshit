@@ -1,0 +1,2 @@
+character_manipulation=input ("enter thing: ")
+print((character_manipulation[1:].lower())+"ay")
