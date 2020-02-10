@@ -1,0 +1,9 @@
+first=input("Enter Input:")
+second=input("Enter input to be evaluated with " + str(f'"{first}"')+":")
+third=input("Enter input to be evaluated with " + str(f'"{first}"')+ " and "+ str(f'"{second}"')+":")
+if first==second==third:
+  print("yeaaaaaaaa okaaay whatever... entered data is equal now fuck off.")
+elif  first==second or second==third or first==third:
+  print("Two of the inputs are equal")
+else:
+    print("Data is fucked in other words it is not equal. Thank you for your time!")
