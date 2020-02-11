@@ -10,6 +10,19 @@ else:
 per=nca/tch*100
 print("Your attendance is "+ str(per)+"%")
 if per>=75:
-  print("You are allowed to sit in the exam")
+  print("ughhhh you got exams.... start studying bichhhh.")
 else:
-  print("You are not allwed to sit in the exam YOU FUCKED UP")
+  print("Do you have medical cause")
+  print("Type 'Y' if yes or 'N' if no")
+  val=input()
+  nval=val.lower()
+  n=("n")
+  y=("y")
+  if nval==y or nval==n:
+    print("authenticating..")
+  else:
+    print("Invalid Input should be only 'Y' or 'N'")
+  if nval==y:
+    print("ughhhh you got exams.... start studying bichhhh. why do you have to tell the truth. NOT COOL!")
+  elif nval==n:
+    print("yayyyyy no exam for you ENJOYYYYYYY")
