@@ -1,0 +1,12 @@
+val1  = input("Player 1 enter your value:")
+val2  = input("Player 2 enter your value:")
+data=val1+val2
+if data.isnumeric():
+  if val1 == val2:
+    print("It's a tie you both entered same values... this is where you hug each other!!!! waiiiit maybe not idk")
+  elif  val1  > val2:
+    print("Player 1 scored highest. Player 1 Wins")
+  else:
+    print('Player 2 scored highest. Player 2 Wins')
+else:
+  print("You entered non-numeic values. Please enter ONLY numeric values")  
