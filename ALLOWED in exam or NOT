@@ -1,0 +1,15 @@
+try:
+  tch = int(input("Enter total number of classes held: "))
+  nca = int(input("Enter number of classes you ACTUALLY attended don't you dare lie: "))
+except ValueError:
+  print("Invalid input needs to be NUMERICAL NON DECIMAL")
+if nca>tch:
+  exit("How the fuck is your proxy more than the actuall classes")
+else:
+  print("Here you go...umm ")
+per=nca/tch*100
+print("Your attendance is "+ str(per)+"%")
+if per>=75:
+  print("You are allowed to sit in the exam")
+else:
+  print("You are not allwed to sit in the exam YOU FUCKED UP")
