@@ -1,0 +1,10 @@
+try:
+  num = int(input("Enter number to calcuate absolute value: "))
+except ValueError:
+  print("Invalid input needs to be NUMERICAL NON DECIMAL")
+if num>0:
+  print("The absolute value of "+ str(num)+" is +"+ str(num))
+else:
+  str_num=num
+  str_num=str(str_num)
+  print("The absolute value of "+ str(num)+" is "+ str_num[1:])
