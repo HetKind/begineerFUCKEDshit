@@ -1,0 +1,9 @@
+length  = input("Entere length of the object:")
+breadth  = input("Entere breadth of the object:")
+check_numerical=length+breadth
+if check_numerical.isnumeric()==False:
+  print("You entered non-numeic values. Please enter ONLY numeric values")
+elif  length == breadth:
+  print("The object is a square. Because opposite sides of a square are both parallel and equal in length.")
+else:
+  print('The object is NOT a square. Because legnth and breadth are not equal.')
