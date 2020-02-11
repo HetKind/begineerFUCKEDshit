@@ -1,0 +1,30 @@
+a1 = input("Please enter your age: ")
+a2 = input("Please enter your age: ")
+a3 = input("Please enter your age: ")
+allage=a1+a2+a3
+if allage.isnumeric():
+  a1=float(a1)
+  a2=float(a2)
+  a3=float(a3)
+  if a1 > a2 > a3:
+    print("The age "+str(a1)+" is OLDEST of all the others")
+    print("The age "+str(a3)+" is YOUNGEST of all the others")
+  elif a1 > a3 > a2:
+    print("The age "+str(a1)+" is OLDEST of all the others")
+    print("The age "+str(a2)+" is YOUNGEST of all the others")  
+  elif a2 > a1 > a3:
+    print("The age "+str(a2)+" is OLDEST of all the others")
+    print("The age "+str(a3)+" is YOUNGEST of all the others")  
+  elif a2 > a3 > a1:
+    print("The age "+str(a2)+" is OLDEST of all the others")
+    print("The age "+str(a1)+" is YOUNGEST of all the others")
+  elif a3 > a1 > a2:
+    print("The age "+str(a3)+" is OLDEST of all the others")
+    print("The age "+str(a2)+" is YOUNGEST of all the others")
+  elif a3 > a2 > a1:
+    print("The age "+str(a3)+" is OLDEST of all the others")
+    print("The age "+str(a1)+" is YOUNGEST of all the others")
+  else:
+    print("This program fucked up which means the person who wrote this is shit AFFFFFFF")
+else:
+  print("Invalid input needs to be NUMERICAL")
