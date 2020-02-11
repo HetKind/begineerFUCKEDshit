@@ -1,0 +1,16 @@
+print("Cost of 1 unit is 100")
+no_of_units = input("How many units would you like to buy: ")
+if no_of_units.isnumeric():
+  total_cost=(float(no_of_units)*100)
+  dcost=total_cost/100*10
+  cost_after_d=total_cost-dcost
+  if total_cost > 1000:
+    print("Hooray..! You get 10% discount")
+    print("Cost: "+str(total_cost))
+    print("Discount: "+ str(dcost))
+    print("Total cost: "+str(cost_after_d))
+    print("Please pay "+str(total_cost))
+  else:
+    print("Please pay "+str(total_cost))
+else:
+  print("Invalid 'Input needs to be NUMERICAL")
