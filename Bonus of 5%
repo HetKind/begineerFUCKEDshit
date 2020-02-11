@@ -1,0 +1,14 @@
+enter_salary = input("Please enter your salary: ")
+year = input("Please state the years you have been working with this orginization: ")
+if enter_salary.isnumeric() and year.isnumeric():
+  salary=float(enter_salary)
+  year=int(year)
+  bonus=salary/100*5
+  salary_and_bonus=salary+bonus
+  if year > 5:
+    print("Hooray..! You get 5% bonus...")
+    print("Your net salary is "+str(salary_and_bonus)+"enjoy!")
+  else:
+    print("Your net salary is "+str(salary)+" enjoy!")
+else:
+  print("Invalid both input needs to be NUMERICAL")
