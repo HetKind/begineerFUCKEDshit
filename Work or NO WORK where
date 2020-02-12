@@ -1,0 +1,54 @@
+try:
+  age = int(input("Enter your age: "))
+  if age==0:
+    exit("Ohhh you FUCK OFF lmao")
+  elif  age > 122:
+    exit("Ohhhh! FFS the greatest fully authenticated age to which any human has ever lived is 122 years 164 days. YOU THINK THIS SYSTEM IS STUPID..... but if you do actually are what you say and still want to work which you SHOULD NOT ummmm ask your queries to the orginization???")
+  elif age > 99:
+    print("woah SHOULD YOU BE WORKING?")
+except ValueError:
+  print("Sorry input needs to be NUMERICAL NON DECIMAL")
+  exit()
+
+print("Enter your gender")
+print("'M' for male.")
+print("'F' for female.")
+print("'O' for other.")
+sex = str(input())
+ssex=sex.lower()#change input to lower case
+if ssex != str("m") and ssex != str("f")and ssex != str("o"):
+  print("Sorry try again")
+  print("Input needs to be:")
+  print("'M' for male.")
+  print("'F' for female.")
+  print("'O' for other.")
+  exit()  
+print("Are you married?")
+print("'Y' for yes.")
+print("'N' for no.")
+marriage = str(input())
+smarriage=marriage.lower()#change input to lower case
+if smarriage != str("y") and smarriage != str("n"):
+  print("Sorry try again")
+  print("Input needs to be:")
+  print("'Y' if you ARE married.")
+  print("'N' if you are NOT married.")
+  exit()
+#conditions
+if age < 20 or age > 60:
+  print("Accoding to earth humans prepetuating old fashioned patriarchal ideology and society and whatever the fuck 'they' say and 'they' are  and blah blah blah")
+  if ssex == str('f'):
+    print("Madam you are not allowed.")
+    exit("Thank you")
+  else:
+    print("Monsieur you are not allowed.")
+    exit("Thank you")
+elif ssex == str('f'):
+  print("You can work in urban areas ONLY")
+  print("Thank you")
+elif ssex == str('m') and age >= 20 and age < 40:
+  print("Yes sir you can work anywhere.")
+  print("Thank you")
+elif ssex == str('m') and age >= 40 and age <=60:
+  print("Sir you can ONLY work in urban areas.")
+  print("Thank you")
