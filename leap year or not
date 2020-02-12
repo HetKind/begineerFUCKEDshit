@@ -1,0 +1,17 @@
+try:
+  year = int(input("Enter year: "))
+  data = str(year)
+  if len(data) > 4:
+    exit("Error! Only 4 NUMERIC characters allowed!")
+except ValueError:
+  print("Invalid input needs to be NUMERICAL NON DECIMAL")
+ly=year%4
+cyear=year%100
+add=ly+cyear
+#leap years are divisible by 4,100 and 400 but here the proGram is only chcking diviSiblity ONLY with 4 and 400 
+if add==0:
+  print(str(year)+" is a leap year.")
+elif ly==0 and cyear!=0:
+  print(str(year)+" is a leap year.")
+else:
+  print(str(year)+" is NOT a leap year. "+str(year)+" is a COMMON year.")
