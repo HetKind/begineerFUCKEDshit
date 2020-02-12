@@ -1,0 +1,12 @@
+try:
+  num = int(input("Enter the 4 digit number: "))
+  data=str(num) #converting integer to string for $ digit input
+  if len(data) > 4:
+    exit("Aw, Snap.. only 4 digits are allowed.")
+except ValueError:
+  print("Sorry input needs to be NUMERICAL NON DECIMAL")
+  exit()
+print(data[::-1])
+rev=''.join(reversed(data))
+print("The below output is presented by reverses a string using reversing iteration with the reversed() built-in function to cycle through the elements in the string in reverse order and then use .join() method to merge all of the characters")
+print(rev)
