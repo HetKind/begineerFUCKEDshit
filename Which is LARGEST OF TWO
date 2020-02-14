@@ -1,0 +1,7 @@
+def max_2(x,y):
+    #x=input("Enter Number ")
+    #y=input("Enter Number ")
+    if x>y:
+        return x
+    return y
+print(max_2(x=input("Enter No: "),y=input("Enter No: "))+' is largest.')
