@@ -1,0 +1,7 @@
+def rectangle_area(l,b):
+    return l*b
+def perimeter(l,b):
+    return 2*(l+b)
+ll=int(input("Enter length: "))
+bb=int(input("Enter breadth: "))
+print("Area of rectangle is "+ str(rectangle_area(ll,bb))+ ". Perimeter of rectangle is "+ str(perimeter(ll,bb)))
