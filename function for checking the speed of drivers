@@ -1,0 +1,12 @@
+def check(speed):
+    if speed<70:
+        return "Ok"
+    else:
+        points = (speed-70)/5
+        if points>12:
+            print("License suspended")
+        elif points==1:
+            print("You have 1 demerit point.")
+        else:
+            print("You have "+ str(points)+ " demerit points.")
+check(int(input("Enter Speed: ")))
