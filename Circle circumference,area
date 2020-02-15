@@ -1,0 +1,7 @@
+print("Note: This program uses value of Pi with 2 decimals that is 3.14 ")
+def circle_area(r):
+    return 3.14*r**2
+def circumference(r):
+    return 2*3.14*r
+rr=float((input("Enter radius: ")))
+print("Area of circle is "+ str(circle_area(rr))+". Circumference of circle is "+ str(circumference(rr)))
