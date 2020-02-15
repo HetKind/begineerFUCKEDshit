@@ -1,0 +1,7 @@
+def num(n):
+    if n%2==0:
+        return ("Even Number.")
+    else:
+        return("Odd Number.")
+nn=int((input("Enter number: ")))
+print(num(nn))
