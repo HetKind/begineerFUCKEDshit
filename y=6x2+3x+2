@@ -1,0 +1,5 @@
+def formula(x):
+    return 6*x**2+3*x+2
+x=int(input("Enter Value: "))
+print(formula(x))
+    
