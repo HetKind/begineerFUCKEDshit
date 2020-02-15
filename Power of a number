@@ -1,0 +1,5 @@
+def power(f,s):
+    return f**s
+rr=int((input("Enter Number: ")))
+ss=int((input("Enter power to be raised to: ")))
+print(str(rr)+" raised to the power "+str(ss)+" is "+ str(power(rr,ss)))
