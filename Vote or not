@@ -1,0 +1,7 @@
+def vote(n):
+    if n>=18:
+        return ("You are allowed to cast your vote.")
+    else:
+        return("Sorry you are not allowed to vote. You need to be at lease 18.")
+nn=int((input("Enter your age: ")))
+print(vote(nn))
