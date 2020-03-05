@@ -1,0 +1,17 @@
+aaa=input("Enter string 1: ")
+bbb=input("Enter string 2: ")
+lst=[aaa, bbb]
+def join_string(words):
+  result=""
+  for i in words:
+    result += i
+  print("Joined string without spaces.")
+  return result
+def join_strings(words):
+  result=""
+  for i in range(len(words)):
+    result += words[i]+" "
+  print("Joined string with spaces.")
+  return result
+print (join_string(lst))
+print (join_strings(lst))
