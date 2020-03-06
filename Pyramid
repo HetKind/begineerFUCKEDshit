@@ -1,0 +1,5 @@
+count = 1
+limit = int(input("Enter total number of '*' story to print: "))
+while count <=limit:
+  print("*"*count)
+  count += 1
