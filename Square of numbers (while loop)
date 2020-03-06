@@ -1,0 +1,5 @@
+num = 1
+limit = int(input("Enter limit to square: "))
+while num<=limit:  # Fill in the condition
+  print(num ** 2)# Print num squared
+  num += 1
