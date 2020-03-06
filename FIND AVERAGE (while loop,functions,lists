@@ -1,0 +1,11 @@
+count = 1
+limit = int(input("Enter total number of values in the set: "))
+data =[]
+while count <=limit:
+  num = int(input("Enter number: "))
+  data.append(num)
+  limit -= 1
+def average(x):
+  print ("The average is ")
+  return sum(x)/len(x)
+print (average(data))
